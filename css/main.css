@@ -22,6 +22,7 @@ h1 {
   text-align: center;
   font-weight: 700;
   margin: 0 0 5px 0;
+  color: #F4C430;
 }
 h2 {
   font-size: 42px;
@@ -245,9 +246,6 @@ img {
 .teal {
   background-color: #507c79;
 }
-.cream {
-  background-color: #F9F6F0;
-}
 
 
 /* MOVIE INFORMATION */
@@ -292,8 +290,6 @@ img {
 }
 .rating {
   font-size: 24px;
-  font-weight: 700;
-  color: #FFD700;
 }
 .side-by-side {
   display: flex;
@@ -314,8 +310,8 @@ img {
 }
 .intro-section {
   display: block;
-  border-bottom: 2px solid #fff;
-  border-top: 2px solid #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
   text-align: center;
   padding: 10px;
   font-size: 26px;
