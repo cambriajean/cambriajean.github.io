@@ -9,7 +9,6 @@ const closeMenuItem3 = document.querySelector('#main-nav-3');
 const closeMenuItem4 = document.querySelector('#main-nav-4');
 const closeMenuItem5 = document.querySelector('#main-nav-5');
 const closeMenuItem6 = document.querySelector('#main-nav-6');
-const closeMenuItem7 = document.querySelector('#main-nav-7');
 
 openMenuButton.addEventListener('click', showMenu);
 
@@ -42,10 +41,6 @@ function hideMenu() {
   document.querySelector('.site-nav').classList.remove('site-nav-open');
 }
 closeMenuItem6.addEventListener('click', hideMenu);
-function hideMenu() {
-  document.querySelector('.site-nav').classList.remove('site-nav-open');
-}
-closeMenuItem7.addEventListener('click', hideMenu);
 function hideMenu() {
   document.querySelector('.site-nav').classList.remove('site-nav-open');
 }
